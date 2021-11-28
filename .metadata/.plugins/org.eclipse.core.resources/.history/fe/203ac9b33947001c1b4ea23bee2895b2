@@ -1,0 +1,5 @@
+package com.springangular.func.exception;
+
+public class ResourceNotfoundException {
+
+}

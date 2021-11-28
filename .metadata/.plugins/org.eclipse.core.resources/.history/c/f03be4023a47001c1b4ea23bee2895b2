@@ -1,0 +1,10 @@
+package com.springangular.func.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.springangular.func.model.Funcionario;
+
+
+public interface FuncionarioRepositoty extends JpaRepository<Funcionario, Long> {
+
+}

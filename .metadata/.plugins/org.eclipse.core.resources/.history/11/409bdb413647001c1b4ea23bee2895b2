@@ -1,0 +1,5 @@
+package com.springangular.func.model;
+
+public class Funcionario {
+
+}

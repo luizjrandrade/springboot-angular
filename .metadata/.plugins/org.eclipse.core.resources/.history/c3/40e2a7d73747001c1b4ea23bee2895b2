@@ -1,0 +1,42 @@
+package com.springangular.func.model;
+
+public class Funcionario {
+
+	private long id;
+	private String nome;
+	private String sobrenome;
+	private String emailId;
+	private String dpto;
+	
+	public long getId() {
+		return id;
+	}
+	public void setId(long id) {
+		this.id = id;
+	}
+	public String getNome() {
+		return nome;
+	}
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+	public String getSobrenome() {
+		return sobrenome;
+	}
+	public void setSobrenome(String sobrenome) {
+		this.sobrenome = sobrenome;
+	}
+	public String getEmailId() {
+		return emailId;
+	}
+	public void setEmailId(String emailId) {
+		this.emailId = emailId;
+	}
+	public String getDpto() {
+		return dpto;
+	}
+	public void setDpto(String dpto) {
+		this.dpto = dpto;
+	}
+	
+}
